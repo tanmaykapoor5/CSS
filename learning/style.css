@@ -1,0 +1,85 @@
+/* we can make changes by calling single elements */
+/* h1{
+    text-align: center;
+    background-color: blue;
+}
+h2{
+    text-align: center;
+    background-color: aqua;
+}
+ol{
+    background-color: blueviolet;
+} */
+
+/* if we want to changes with only one element we can use id and each element must have unique id */
+/* #first{
+    background-color: blue;
+} */
+
+/* if we want to make same change to two things we should give them class keyword and it must be same for both the elements */
+/* .second{
+    background-color: darkblue;
+    text-align: center;
+} */
+
+/* h2{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+ol{
+    font-size: 50;
+}
+li{
+    font-size: 1em;
+} */
+
+h1{
+    background-color: blue;
+    border: 10px green solid ;
+    padding: 15px;
+    margin-left: 300px;
+    width: 350px;
+}
+
+h2{
+    text-align: center;
+    background-color: orange;
+    width: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    margin-left: 450px;
+    
+}
+
+span{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+}
+
+.container{
+    background-color: aliceblue;
+    height: 50px;
+}
+
+/* h5{
+    margin-left: 70px;
+    position: relative;
+    bottom: 58px;
+    padding: 10px;
+}
+
+h4{
+    padding: 10px;
+} */
+
+h4{
+    justify-content: space-evenly;
+}
