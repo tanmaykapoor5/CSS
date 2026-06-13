@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    gap: 10px;
+    /* margin-left: 250px; */
+    background-color: black;
+    
+    
+    
+}
+
+.first{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+
+    
+    
+}
+
+
+.second{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.third{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fourth{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fifth{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.sixth{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
