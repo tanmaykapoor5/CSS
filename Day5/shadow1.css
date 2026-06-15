@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 5px blue;
+
+}
