@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: black;
+    height: 100px;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+    
+    
+}
+
+.first{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-name: move;
+    animation-duration: 3s;
+    position: absolute;
+    animation-timing-function: ease;
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+}
+
+@keyframes move {
+
+    from{
+        background-color: red;
+        top: 10px;
+        left: 10px;
+
+
+    }
+    to{
+        background-color: blue;
+        top: 10px;
+        left: 600px;
+
+    }
+    
+}

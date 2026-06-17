@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.container{
+    background-color: #0a0a0a;
+    height: 500px;
+    padding: 20px;
+    gap: 20px;
+    
+    
+    
+    
+    
+}
+
+.first{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    
+    
+    
+}
+
+.second{
+    background-color: orange;
+    height: 200px;
+    margin-top: 10px;
+    width: 100px;
+    
+}
