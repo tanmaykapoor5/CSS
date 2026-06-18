@@ -5,7 +5,7 @@
 
 
 
-.container{
+/* .container{
     background-color: #0a0a0a;
     height: 500px;
     padding: 20px;
@@ -36,4 +36,25 @@
     margin-top: 10px;
     width: 100px;
     
+} */
+
+.container{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.box2{
+    color: white;
 }
